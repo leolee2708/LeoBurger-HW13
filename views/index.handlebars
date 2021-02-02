@@ -1,0 +1,34 @@
+<h1>Leo's Fusion Burger Bar!</h1>
+
+<h2>Master-Moves Burger Menu!</h2>
+
+<ul>
+  {{#each burgers}}
+    {{#unless devoured}}
+      {{> burgers-block devoured=true}}
+    {{/unless}}
+  {{/each}}
+</ul>
+
+<h2>Devoured burgers!</h2>
+
+<ul>
+  {{#each burgers}}
+    {{#if devoured}}
+      {{> burgers-block devoured=false}}
+    {{/if}}
+  {{/each}}
+</ul>
+
+<h3>Add your own master-move burger!</h3>
+<form class="create-form">
+
+  <div class="form-group">
+    <label for="bur">Your new master-move burger:</label>
+    <input type="text" id="bur" name="burger_name">
+  </div>
+
+  
+
+  <button class="btn btn-lg btn-info" type="submit">Add Your Burger!</button>
+</form>

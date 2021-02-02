@@ -1,0 +1,29 @@
+{
+  "name": "leoburger",
+  "version": "1.0.0",
+  "description": "eattheburger",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo\\Error: no test specified & Exit1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leolee2708/LeoBurger-HW13.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leolee2708/LeoBurger-HW13/issues"
+  },
+  "dependencies": {
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
+    "mysql": "^2.16.0",
+    "nodemon": "^2.0.7"
+  },
+  "devDependencies": {
+    "handlebars-helper-css": "^0.1.0"
+  },
+  "homepage": "https://github.com/leolee2708/LeoBurger-HW13#readme"
+}
